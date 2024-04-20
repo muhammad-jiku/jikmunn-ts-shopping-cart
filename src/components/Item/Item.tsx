@@ -1,9 +1,10 @@
+// external import
 import { Button } from '@mui/material';
+// internal imports
 // Types
 import { CartItemType } from '../../App';
 // Styles
 import { Wrapper } from './Item.styles';
-
 type Props = {
   item: CartItemType;
   handleAddToCart: (clickedItem: CartItemType) => void;

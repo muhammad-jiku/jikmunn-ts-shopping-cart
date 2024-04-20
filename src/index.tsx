@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+// external import
 import { QueryClient, QueryClientProvider } from 'react-query';
+// internal import
+import App from './App';
 
 const client = new QueryClient();
 

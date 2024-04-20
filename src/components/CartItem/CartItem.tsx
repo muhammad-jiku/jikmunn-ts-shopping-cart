@@ -1,4 +1,6 @@
+// external import
 import { Button } from '@mui/material';
+// internal imports
 // Types
 import { CartItemType } from '../../App';
 // Styles

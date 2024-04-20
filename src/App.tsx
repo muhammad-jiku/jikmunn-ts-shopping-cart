@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+//  external imports
 import { useQuery } from 'react-query';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { Drawer, LinearProgress, Grid, Badge } from '@mui/material';
+// internal imports
 // Components
 import { Cart, Item } from './components';
-//
-import { Drawer, LinearProgress, Grid, Badge } from '@mui/material';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 // Styles
 import { Wrapper, StyledButton } from './App.styles';
 // Types
